@@ -1,5 +1,15 @@
-.w3-container{
-    background-image: url('bible3.jpg');
+
+
+.w3-teal {
+ 
+    background:url('bible3.jpg');
     background-size: cover;
     height: 400px;
+    position: relative;
+}
+.name-line{
+    display: flex;
+    align-items:center;
+justify-content: center;
+gap: 8px;
 }
