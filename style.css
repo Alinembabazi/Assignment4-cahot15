@@ -2,6 +2,7 @@
 body{
     margin-top: 50px;;
 }
+
 .w3-teal {
  
     background:url('bible3.jpg');
@@ -33,4 +34,8 @@ gap: 8px;
     .news-format{
         column-count: 1;
     }
+}
+#imaged{
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
