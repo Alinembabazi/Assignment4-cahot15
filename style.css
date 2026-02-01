@@ -1,5 +1,7 @@
 
-
+body{
+    margin-top: 50px;;
+}
 .w3-teal {
  
     background:url('bible3.jpg');
@@ -12,4 +14,23 @@
     align-items:center;
 justify-content: center;
 gap: 8px;
+}
+.profile{
+    opacity: 0.5;
+    border-radius: border-box;
+}
+.profile:hover{
+    opacity: 1;
+
+}
+.news-format{
+    column-count: 1;
+    column-gap: 30px;
+    text-align: justify;
+    text-indent: 50px;
+}
+@media screen and (max-width: 600px) {
+    .news-format{
+        column-count: 1;
+    }
 }
