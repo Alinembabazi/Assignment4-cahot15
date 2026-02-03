@@ -20,6 +20,7 @@ gap: 8px;
 .profile{
     opacity: 0.5;
     border-radius: border-box;
+    background-color: black;
 }
 .profile:hover{
     opacity: 1;
