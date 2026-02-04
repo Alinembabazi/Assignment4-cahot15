@@ -1,78 +1,23 @@
-
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.w3-teal {
- 
-    background:url('bible3.jpg');
-    background-size: cover;
-    height: 400px;
-    position: relative;
-}
-.name-line{
+.navbar  {
     display: flex;
-    align-items:center;
-justify-content: center;
-gap: 8px;
-}
-.profile{
-    opacity: 0.5;
-    border-radius: border-box;
-    background-color: black;
-}
-.profile:hover{
-    opacity: 1;
+    justify-content: space-around;
+color: black;
+padding: 15px;
+text-decoration: none;
 
+}
+#search{
+    display: end;
+}
+#home{
+    background-image: url(bible7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .news-format{
-    column-count: 1;
+     column-count: 1;
     column-gap: 30px;
     text-align: justify;
     text-indent: 50px;
+    margin: 10px;
 }
-@media screen and (max-width: 600px) {
-    .news-format{
-        column-count: 1;
-    }
-}
-#full-image{
-    width: 100%;
-    height: 150px;
-    display: block;
-}
-.boxsub{
-    width: 100%;
-    height: 10px;
-    display: block;
-    margin-bottom: 0%;
-}
-.full-image1{
-    width: 100%;
-    height: 100px;
-    /* display: block; */
-}
-.hero-section {
-    background-image: url('bible4.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    position: relative; 
-}
-.portfolio{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 15px;
-    border: 5px;
-
-}
-.hero{
-    background-image: url('bible7.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    position: relative;
-}
-
