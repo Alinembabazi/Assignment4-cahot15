@@ -22,7 +22,7 @@
    <nav class="bg-[url('bible7.jpg')]
     bg-cover
     bg-center
-    text-white   text-black   flex p-3 gap-10 hover:bg-grey-600 cursor-pointer hover:shadow-lg h-60" >
+    text-black   text-black   flex p-3 gap-10 hover:bg-grey-600 cursor-pointer hover:shadow-lg h-60" >
     <a href="#home">HOME</a>
     <a  href="#about"> <i class="fa fa-user"></i> ABOUT</a>
     <a  href="#portfolio"> <i class="fa fa-th-large"></i> PORTFOLIO</a>
@@ -31,8 +31,8 @@
 
 
 </nav>
-<div class="aboutme" id="About">
-    <h2 class="text-center mt-4">ABOUT ME </h2>
+<div class="aboutme" id="about">
+    <h2 class="text-center mt-4 font-bold">ABOUT ME </h2>
     <em class="text-center block">I enjoy reading the Bible</em>
     <p class="ml-2 mr-2">we created this website to share our love for the Bible and to help others grow in their faith. 
         Our mission is to provide a platform where individuals can explore the teachings of the Bible, find inspiration,
@@ -40,13 +40,13 @@
           guidance, and comfort, and we are dedicated to making its teachings accessible to everyone.
          Thank you for visiting our website, and we hope that you find it a valuable resource on your spiritual journey.</p>
 </div>
-<div class=" flex flex-col md:flex-row   gap-8 p-6 items-start">
-    <div  class="flex flex-col items-center md:items-start md:w-1/3">
+<div class=" flex flex-no-wrap gap-4 m-4 p-4">
+    <div  class="">
 <h3 class="text-xl font-bold mb-4"><i class="fa fa-user"></i>UWABABYEYI</h3>
-<img  class="w-48 h-48 rounded-full opacity-70 hover:opacity-100 transition  "  src="profile.jpeg" alt="">
-<div>
-    <div class="md:w-2/3 ">
-   <p class="text-justify leading-relaxed indent-8">
+<img  class="w-44 h-44 rounded-full opacity-70 hover:opacity-100 transition mb-4 "  src="profile.jpeg" alt="">
+<div flex class="flex items-center gap-2 mb-4">
+    <div class=lg:col-span-3">
+   <p class="font-serif text-justify leading-relaxed column-1 ">
     Welcome to our Bible Study Website! My name is <b>UWABABYEYI MBABAZI Aline</b>, 
     and this website is dedicated to sharing the teachings of the Holy Bible 
     and helping people grow in their faith and spiritual understanding. 
@@ -70,7 +70,7 @@
 <div class="text-center m-4 p-4">
   <p class="text-xl font-semibold mb-4">I'm really good at:</p>
 
-  <!-- Reading the Bible -->
+  
   <p class="text-lg font-medium mb-1 flex items-left justify-left gap-2">
     <i class="fa fa-book"></i> Reading the Bible
   </p>
@@ -85,8 +85,6 @@
   <div class="w-full bg-gray-200 rounded-full h-8 mb-4">
     <div class="bg-gray-800 text-white text-center rounded-full h-6 w-[85%]">85%</div>
   </div>
-
-  <!-- Playing Piano -->
   <p class="text-lg font-medium mb-1 flex items-left justify-left gap-6">
     <i class="fa fa-music"></i> Playing Piano
   </p>
@@ -102,17 +100,12 @@
 
 <span class="text-2xl">150+ <br><em class="text-sm">Hours of Worship</em></span><br>
 </div>
-<div class="relative h-64 w-full mt-0">
+<div class="relative h-64 w-full mt-0" id="portfolio">
 <img   class="w-full h-60"  src="bible9.jpg" alt="Bible Study Image">
  <div class="absolute inset-0 flex items-center justify-center ">
         <span class="text-black text-3xl ">MY PORTIFOLIO</span>
 
 </div>
-
-
-
-
-
 </div>
 
 <div class="">
@@ -137,7 +130,7 @@
 <div class="flex justify-center">
 <button class="bg-gray-400  hover:bg-gray-300 m-4 p-2 text-center rounded ">LOAD MORE</button>
 </div>
-<div class="relative h-64 w-full mt-10">
+<div class="relative h-64 w-full mt-10" id="contact">
     <img class="w-full h-60" src="bible4.jpg" alt="">
     <div class="absolute inset-0 flex items-center justify-center ">
         <span class="text-black text-3xl font-bold">MY CONTACT</span>
@@ -159,11 +152,14 @@
 <form action="" class="m-5">
     <input type="text"placeholder="Name">
     <input type="email" placeholder="Email" ><br>
+    
     <textarea name="text" id=""placeholder="Your Message"></textarea><br>
-    <button class="flex items-center gap-2 ml-auto m-4 bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition">
+    <div class="flex justify-start mt-4">
+    <button class="flex items-center gap-2  bg-black hover:bg-gray-700 text-white  px-4 py-2 rounded ">
   <i class="fa fa-paper-plane"></i>
   Send Message
 </button>
+</div>
 </form>
 <footer class="bg-gray-800 text-white py-16 text-center hover:bg-gray-700 transition">
   <!-- Back to top button -->
