@@ -13,18 +13,19 @@
 
 <body>
    <nav class="navbar
-    text-black bg-white flex p-3 gap-10 hover:bg-gray-600 cursor-pointer hover:shadow-lg h-10" >
+    text-black bg-white flex p-3 gap-10 hover:bg-gray-300 cursor-pointer hover:shadow-lg h-10
+    fixed top-0 z-[1000] flex justify-around text-black p-4 w-full overflow-x-auto" >
     <a href="#home">HOME</a>
     <a  href="#about"> <i class="fa fa-user"></i> ABOUT</a>
     <a  href="#portfolio"> <i class="fa fa-th-large"></i> PORTFOLIO</a>
     <a href="#contact"><i class="fa fa-envelope"></i>CONTACT</a>
-<i class="fa fa-search ml-auto cursor-pointer"></i>
+<i class="fa fa-search ml-auto cursor-pointer justify:end"></i>
 
 
 </nav>
 <header id="home" class="parallax-bg img-1">
   <div class="caption">
-    <span class="border-text"> MY LOGO</span>
+    <span class="border-text">MY BIBLE</span>
   </div>
 </header>
 <div class="aboutme" id="about">
@@ -36,7 +37,7 @@
           guidance, and comfort, and we are dedicated to making its teachings accessible to everyone.
          Thank you for visiting our website, and we hope that you find it a valuable resource on your spiritual journey.</p>
 </div>
-<div class=" flex flex-no-wrap gap-4 m-4 p-4">
+<div class=" flex flex-col md:flex-row gap-4 m-4 p-4">
     <div  class="">
 <h3 class="text-xl font-bold mb-4"><i class="fa fa-user"></i>UWABABYEYI</h3>
 <img  class="w-44 h-44 rounded-full opacity-70 hover:opacity-100 transition mb-4 "  src="profile.jpeg" alt="">
@@ -107,7 +108,7 @@
     <p class="text-center text-sm ">here are some of book i have studied about the bible and christian life.</p>
     <p class=" text-center text-sm">click the image to view more detail</p>
 </div>
-<div class="grid grid-cols-6 gap-4 m-4 p-4 h-200 w-500">
+<div class="grid gap-4 m-4 p-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
     <img  src="bible11.jpg" alt="">
     <img src="bible9.jpg" alt="">
     <img src="bible21.jpg" alt="">
@@ -133,7 +134,7 @@
     <h3>WHERE I WORK</h3>
     <em class="text-sm">I'd love your feedback!</em>
 </div>
-<div class="flex items-start gap-6 m-4">
+<div class="flex flex-col md:flex-row items-start gap-6 m-4">
     <img class="w-48 h-auto border-8 rounded " src="map.jpg" alt="Map of Kigali">
     <div class="space-y-2">
     <p class=" flex items-center gap-2 text-lg"><i class="fa fa-map-marker"></i>Kigali,Rwanda</p>
@@ -141,11 +142,11 @@
     <p class=" flex items-center gap-2 text-lg  m-4"><i class="fa fa-envelope"></i>uwababyeyimbabazialine15@gmail.com</p>
 </div>
 </div>
-<form action="" class="m-5">
-    <input type="text"placeholder="Name">
-    <input type="email" placeholder="Email" ><br>
+<form action="" class="m-5 max-w-md">
+    <input type="text"placeholder="Name" class="border m-1 p-2 w-full">
+    <input type="email" placeholder="Email"  class="border m-1 p-2 w-full"><br>
     
-    <textarea name="text" id=""placeholder="Your Message"></textarea><br>
+    <textarea name="text" id=""placeholder="Your Message" class="border mt-1 p-2 w-full"></textarea><br>
     <div class="flex justify-start mt-4">
     <button class="flex items-center gap-2  bg-black hover:bg-gray-700 text-white  px-4 py-2 rounded ">
   <i class="fa fa-paper-plane"></i>
